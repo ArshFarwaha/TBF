@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  width: 56px;
+  height: 56px;
+  filter: invert(1);
+}
+
+a {
+  text-decoration: none;
+  position: relative;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  padding-left: 24px;  
+}
+
+/* 
+
+NAVIGATION BAR
+
+*/
+
+nav {
+  background-color: rgb(41, 41, 41);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  height: 100px; 
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px;
+  border-bottom: 1px solid #fff;
+  
+}
+
+.nav__link--anchor {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.nav__link--anchor-primary {
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 8px 20px;
+  border-radius: 50px;
+  color: #000;
+  background-color: #fff;
+  transition: all 300ms ease;
+}
+
+.nav__link--anchor-primary:hover {
+  background-color: #afafaf;
+}
+
+.link__hover-effect:after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: #fff;
+  width: 0;
+  bottom: -3px;
+  right: 0;
+  transition: all 300ms ease;
+}
+
+.link__hover-effect:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+/* 
+
+PROJECTS
+
+*/
+
+.projects {
+  height: 100vh;
+  background-color: rgb(41, 41, 41);
+  color: #fff;
+}
