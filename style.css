@@ -91,12 +91,36 @@ nav {
 
 /* 
 
-PROJECTS
+PHOTOGRAPHY
 
 */
 
-.projects {
+.photography {
   height: 100vh;
-  background-color: rgb(41, 41, 41);
+  background-color: #000;
   color: #fff;
+}
+
+/* 
+
+VIDEOGRAPHY
+
+*/
+
+.videography {
+  height: 100vh;
+  background-color: #fff;
+  color: #000;
+}
+
+/* 
+
+BTS
+
+*/
+
+.bts {
+  height: 100vh;
+  background-color: #000;
+  color: #fff; 
 }
